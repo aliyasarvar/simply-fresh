@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Simply Fresh About Us</title>
+
+    <link rel="stylesheet" href="style6.css">
+
+  </head>
+
+  <body>
+    <!-- HEADER -->
+     <div class="containerSF">
+        <div id="SfHomePage" class="main-header">
+            <div class="header-part-top">
+                <nav id="simplyFreshNav" class="navbar navbar-expand-lg navbar-dark px-0 py-3">
+                   <div class="container-fluid">
+                    <!-- Logo -->
+            
+                    
+                            <a class="navbar-brand" href="https://www.simplyfresh.in/">
+                             <img src="https://gozoop.com/gz-projects/aliya/simplyfresh/img/2.png" class="img-fluid" alt="Simply Fresh">
+                            </a>
+            
+            
+            
+                         <!-- Navbar  -->
+                        <button onclick="openNav()" class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                         </button>
+                         <!-- Collapse -->
+                         <div class="collapse navbar-collapse" id="navbarCollapse">
+                         <!-- Nav -->
+                         <div class="navbar-nav sf-nav-menu">
+                            <a class="nav-item nav-link  active" href="https://www.gozoop.com/gz-projects/aliya/simplyfresh/index2.html" aria-current="page">Home</a>
+
+                            <a class="nav-item nav-link " href="https://www.gozoop.com/gz-projects/aliya/simplyfresh/listing.html">Stories</a>
+
+
+                            <a class="nav-item nav-link " href="https://www.gozoop.com/gz-projects/aliya/simplyfresh/products.html">Products</a>
+
+                            <a class="nav-item nav-link " href="https://www.gozoop.com/gz-projects/aliya/simplyfresh/aboutus.html">About Us</a>
+
+                            <a class="nav-item nav-link " href="https://www.gozoop.com/gz-projects/aliya/simplyfresh/contact.html">Contact Us</a>
+
+                           </div>
+    
+                        </div>
+                 </div>
+                 </nav>
+
+                 <!-- mobile view -->
+                 <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    
+                    
+                                  <a class="nav-item nav-link homeNavMobile " href="https://www.simplyfresh.in/" aria-current="page">Home</a>
+                  
+                                  <a class="nav-item nav-link active" href="https://www.simplyfresh.in/stories">Stories</a>
+                  
+                  
+                                  <a class="nav-item nav-link " href="https://www.simplyfresh.in/products">Products</a>
+                  
+                                  <a class="nav-item nav-link " href="https://www.simplyfresh.in/about-us">About Us</a>
+                  
+                                  <a class="nav-item nav-link " href="https://www.simplyfresh.in/contact-us">Contact Us</a>
+                  </div>
+
+    
+     
+    
+    </div>
+    </div>
+    </div>
+   
+
+ <!--rakho iraade fresh-->
+   <div class=" container banner2">
+    <p class="head2">
+        Real Heroes: Redefining Success <br>
+        Through Service and Impact
+    </p>
+ <div class="row">
+    <div class="col-5 ">
+        <img src="img/nee.png" class="nee">
+        <p class="pp"> How One Woman <br>Traded Corporate Success<br> for Rural India’s Progress</p>
+
+        <p class="text3">
+            Neeraja Kudrimoti traded city skyscrapers for rural landscapes,<br>
+             leaving behind a high-paying corporate job to answer a deeper calling.
+        </p>
+        <a class="text22" href="">
+            Read More
+        </a>
+    </div>
+    <div class="col-5 offset-1">
+        <img src="img/nee2.png" class="nee">
+        <p class="pp">How A Five-Star Chef<br> Chose to Serve Those <br>Who Need It Most </p>
+        <p class="text3">
+        Narayanan Krishnan saw possibilities where others saw waste. In a world where five-star kitchens discard ‘imperfect’ vegetables daily, he transformed this surplus into hope for hundreds of homeless people.
+        </p>
+        <a class="text22" href="">
+            Read More
+        </a>
+    </div>
+ </div>
+   </div>
+   <img src="https://gozoop.com/gz-projects/aliya/simplyfresh/img/Group 48.png" class="cl10">
+
+   <div id="shareYourStoriesForm" class="formSection pt-50 pb-50">
+    <div class="container">
+        <div class="form-Div">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title-stories">
+                        <h2>Know someone <br> Who's making a difference? </h2>
+                        <h4 class="sub-title-h4">Share how they are helping build the nation with their <b>
+                                fresh iraade</b>
+                        </h4>
+                        <p class="sub-title-p">Whether it's your story or the story of someone you know, or a story
+                            you came across that moved you, we want to share it with us
+                            through the form below:</p>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+
+                    <div id="alertMsg"></div>
+<form method="post" id="storiesForm">
+<div class="row">
+    <div class="col-md-6 mb-4">
+        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name*">
+    </div>
+
+    <div class="col-md-6 mb-4">
+        <input type="email" class="form-control" name="email_id" id="email_id" placeholder="Your Email Address*">
+    </div>
+</div>
+
+<input type="hidden" name="page_url" value="https://www.simplyfresh.in/stories">
+
+<div class="row">
+    <div class="col-md-6 mb-4">
+        <input type="text" class="form-control" name="nominating" id="nominating" placeholder="Who Are you Nominating?*">
+    </div>
+    <div class="col-md-6 mb-4">
+        <select id="n_relationship" name="n_relationship" class="form-control">
+            <option selected="">Relationship to the Nominee (Optional)</option>
+            <option>Brother</option>
+            <option>Sister</option>
+            <option>Father</option>
+            <option>Mother</option>
+        </select>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-10 mb-4">
+        <textarea class="form-control" id="story" name="story" cols="4" maxlength="150" placeholder="Share their Story: Describe their story in 150 words or share a link to their story."></textarea>
+             <span id="char-count" style="font-size: 14px;">150 characters remaining</span>
+    </div>
+
+    <div class="col-md-1 form-submit-div">
+        <button type="button" id="formStories" class="btn btn-click-here">SUBMIT</button>
+    </div>
+</div>
+
+</form>                    </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--foot-->
+
+<section class="footerSection">
+    <div class="container">
+        
+  
+<div class="endd ">
+    
+    <div>
+        <!-- <img src="https://gozoop.com/gz-projects/aliya/simplyfresh/img/end.jpeg" class="ends"> -->
+    
+             <div class="container2">
+                 <div class="row">
+                     <div class="col">
+                         <p class="locate">LOCATE US </p>
+    
+                         <p class="add"> Unit No.315, 2nd Floor,<br>
+                            The DLF South Court,<br>
+                            Plot No. A-1,<br>
+                            Saket Place District Centre,<br>
+                            New Delhi -110017.</p>
+    
+                     </div>
+    
+                     <div class="col">
+                         <p class="locate">CONTACT US </p>
+    
+                         <p class="add"> 011 6913 4000<br>
+                             <a href=""> info@bngroupindia.com</a><br>
+                         </p>
+    
+                     </div>
+    
+                     <div class="col">
+                         <p class="locate">FOLLOW US </p>
+    
+                             <div class="ft-inner-content">
+                                 <div class="ft-social-icons align-items-center">
+                                 <ul>
+    
+                               
+                                <li class="whatsAppFirst">
+                                    <a href="https://x.com/SimplyFresh_in" target="_blank"><i class="fab fa-twitter fa-sm"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/profile.php?id=61569304793120" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://www.instagram.com/simplyfresh_in/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+                                </li>
+                                
+                                <li class="Yt">
+                                    <a class="Yta" href="https://www.youtube.com/channel/UC-at9LuI7-VX3iY-3WTo_NQ" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
+                                </li>
+    
+                                 </ul>
+                                 </div>
+                             </div>
+    
+                     </div>
+    
+                     <div class="col">
+                         <p class="locate">IMPORTANT LINKS </p>
+    
+    
+                         <div class="linkk">
+                             <div class="row">
+                                 <div class="col">
+                                     <a href=""> About Us</a>
+                                 </div>
+    
+                                 <div class="col">
+                                  <a href="">Blogs </a>
+                                 </div>
+                             </div>
+    
+                             <div class="row">
+                                 <div class="col">
+                                     <a href=""> Products</a>
+                                 </div>
+    
+                                 <div class="col">
+                                     <a href=""> Media </a>
+                                 </div>
+                             </div>
+
+                             <div class="row">
+                                <div class="col">
+                                    <a href=""> FAQs</a>
+                                </div>
+   
+                                <div class="col">
+                                    <a href=""> Contact Us </a>
+                                </div>
+                            </div>
+                         </div>
+                    
+    
+                      </div>
+                  </div>
+            </div>
+      </div>
+</div>
+</div>
+</section>
+
+<!--  caroiusel  -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+    function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+    <script>
+$(document).ready(function () {
+    let $carousel = $(".owl-carousel");
+
+    // Initialize the Owl Carousel
+    $carousel.owlCarousel({
+        items: 1,
+        loop: true,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 50000,
+        onTranslated: updateIndicators,
+        margin: 10,
+        // responsive: {
+        //     0: { items: 1 },
+        //     320: { items: 1 },
+        //     600: { items: 1 },
+        //     1000: { items: 2 }
+        // }
+        responsive: {
+                0: {
+                    items: 1,
+                },
+                320: {
+                    items: 1,
+                    stagePadding: 50,loop:false,
+                },
+                600: {
+                    items: 1,
+                    stagePadding: 50,loop:false,
+                },
+                768:{
+                    items: 1,
+                    stagePadding: 50,loop:false,
+                },
+                1000: {
+                    items: 2,
+                }
+            }
+    });
+
+    function updateIndicators(event) {
+        let totalItems = event.item.count; // Total number of slides
+        let index = (event.item.index - event.relatedTarget._clones.length / 2 + totalItems) % totalItems;
+
+        $(".line-segment").removeClass("active");
+        $(`.indicator-line .line-segment:nth-child(${index + 1})`).addClass("active");
+    }
+
+    // Add click event to indicators
+    $(".line-segment").on("click", function () {
+        let index = $(this).index(); // Get the index of the clicked indicator
+        $carousel.trigger("to.owl.carousel", [index, 300]); // Slide to the corresponding index
+    });
+});
+</script>
+
+  </body>
+  </html> 

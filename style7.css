@@ -1,0 +1,367 @@
+body
+{
+    background-image: url('https://gozoop.com/gz-projects/aliya/simplyfresh/img/3.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    font-family: "elza", sans-serif;
+}
+
+
+
+
+
+.containerSF
+  {
+        background-color: rgb(225, 222, 222);
+        color: black;
+        position: relative;
+        background-position: top;
+        padding-top: 20px;
+        padding-bottom: 20px;
+ }
+
+#simplyFreshNav .navbar-brand img {
+    padding-left: 25px;
+    width: 125px;
+    }
+
+#simplyFreshNav .sf-nav-menu {
+        text-align: center;
+        margin: auto;
+        background: rgb(245 245 245 / 56%);
+        border-radius: 20px;
+        padding: 5px 45px 1px 45px;
+        color: black;
+        }
+
+        .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+            color: #000;
+            }
+        .sf-nav-menu a{
+color: black;
+        }
+
+#simplyFreshNav .sf-nav-menu a:hover {
+            font-weight: bolder;
+            color: #000;
+            }
+
+.content-banner
+{
+        font-weight: 400;
+        align-items: left;
+        margin: 2.5em 0 2em 0;
+        gap: 2em;
+        top: 200px;
+        color: #fff;
+        position: relative;
+        z-index: 2;
+       
+        
+        }
+        @media screen and (min-width: 960px)
+        {
+            .content-banner {
+                width: 40%;
+                padding-left: 5em;
+                margin-bottom: 0;
+                }
+        }
+
+        /* Navbar for mobile */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    background-color: #275322;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+  
+  }
+  
+  .sidenav a:hover{
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+        position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 50px;
+      margin-left: 50px;
+  }
+  
+  .navbar-toggler:focus
+  {
+      box-shadow:none;
+  }
+  
+  
+  .homeNavMobile
+  {
+  padding-top: 60px !important;
+  }
+  
+  .sidenav a.active
+  {
+    color: #EB2B36;  
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 1);
+    }
+
+    .Our .ourr{
+       
+        color: red;
+        font-size: 35px;
+        font-weight: bolder;
+        padding-top: 60px;
+    }
+
+    .Our .soya{
+        color: red;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .Our .text1{
+        
+        font-size: 18px;
+    }
+
+    .green{
+
+
+    }
+
+    .sunf{
+        padding-top: 20px;
+       
+    }
+
+    .footerSection{
+        background-image: url(https://gozoop.com/gz-projects/aliya/simplyfresh/img/end.jpeg);
+         position: absolute;
+         width: 100%;
+         height: 220px;
+         margin-top: 0px;
+         background-size: cover;
+         background-repeat: no-repeat;
+     }
+     
+     .locate{
+         position: relative;
+         color: white;
+         font-size: 20px;
+         left: 0px;
+         
+         font-weight: bolder;
+     }
+     
+     .add{
+         position: relative;
+         color: white;
+         font-size: 12px;
+         left: 0px;
+         
+         
+     }
+     .add a{
+         text-decoration: none;
+         color: white;
+     }
+     
+     .ft-social-icons ul li a {
+         border: 1px solid #ffffff;
+         color: #eb2b36;
+        
+         padding: 10px 13px 8px 10px;
+         border-radius: 50px;
+         height: 41px;
+         display: block;
+         width: 41px;
+         background: #fff;
+         }
+
+         .ft-social-icons ul li{
+             margin-right: 4px;
+         }
+     
+         .linkk a{
+             position: relative;
+             color: white;
+             font-size: 12px;
+             left: 0px;
+              
+             text-decoration: none;
+             padding: 5px;
+         }
+
+         .container2{
+            padding-top: 50px;
+            padding-left: 50px;
+        }
+
+        .conatiner2 ul{
+            
+            z-index: 4;
+            position: relative;
+        }
+        .ft-inner-content{
+            position: relative;
+        }
+
+         .ft-social-icons ul {
+            width: 20px;
+            height: 20px;
+            list-style: none;
+            padding-left: 10px;
+        }
+
+        .fa-lg {
+            font-size: 1.25em;
+            line-height: .05em;
+            vertical-align: -.075em;
+            
+            }
+         
+          /* Navbar for mobile */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    background-color: #275322;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+  
+  }
+  
+  .sidenav a:hover{
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+        position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 50px;
+      margin-left: 50px;
+  }
+  
+  .navbar-toggler:focus
+  {
+      box-shadow:none;
+  }
+  
+  
+  .homeNavMobile
+  {
+  padding-top: 60px !important;
+  }
+  
+  .sidenav a.active
+  {
+    color: #EB2B36;  
+  }
+  .ft-social-icons ul{
+    display: flex;
+   
+}
+.ppp{
+    font-size: 12px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.big1{
+    padding-left: 0px;
+    padding-bottom: 70px;
+}
+
+.share-now {
+    text-align: right;
+    padding-top: 45px;
+    }
+    .share-now ul {
+        display: inline-flex;
+        list-style: none;
+        padding-left: 0rem;
+        }
+        .share-now ul li {
+            padding-left: 10px;
+            padding-right: 0px;
+            }
+            .share-now p {
+                font-size: 23px;
+                font-family: "elza", sans-serif;
+                font-weight: 300;
+                }
+
+                .share-now ul li a {
+                    border: 1px solid #6F6F6F;
+                    color: #ffffff;
+                    padding: 10px 13px 8px 10px;
+                    border-radius: 50px;
+                    height: 41px;
+                    display: block;
+                    width: 41px;
+                    background: #6F6F6F;
+                    }
+
+                    .heroes{
+                        font-size: 32px;
+                        padding-top: 45px;
+                    }
+
+    .tex p{
+        font-size: 20px;
+        padding-bottom: 7px;
+
+    } 
+    .neerj{
+        width: 620px;
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }    
+
+    .sto1 p{
+        font-size: 18.5px;
+    }
+    .ens p{
+        font-size: 22px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
